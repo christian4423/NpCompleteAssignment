@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NpComplete1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Input\grid\grid-6-7" />
+    <None Include="Input\grid\grid-9-12" />
+    <None Include="Input\grid\grid-12-17" />
+    <None Include="Input\grid\grid-16-24" />
+    <None Include="Input\grid\grid-20-31" />
+    <None Include="Input\grid\grid-25-40" />
+    <None Include="Input\grid\grid-30-49" />
+    <None Include="Input\grid\grid-40-67" />
+    <None Include="Input\grid\grid-49-84" />
+    <None Include="Input\grid\grid-60-104" />
+    <None Include="Input\grid\grid-81-144" />
+    <None Include="Input\grid\grid-100-180" />
+    <None Include="Input\rand\rand-5-7" />
+    <None Include="Input\rand\rand-10-15" />
+    <None Include="Input\rand\rand-15-28" />
+    <None Include="Input\rand\rand-20-40" />
+    <None Include="Input\rand\rand-25-50" />
+    <None Include="Input\rand\rand-30-60" />
+    <None Include="Input\ring\ring-5-5" />
+    <None Include="Input\ring\ring-10-10" />
+    <None Include="Input\ring\ring-15-15" />
+    <None Include="Input\ring\ring-20-20" />
+    <None Include="Input\ring\ring-25-25" />
+    <None Include="Input\ring\ring-30-30" />
+    <None Include="Input\ring\ring-35-35" />
+    <None Include="Input\ring\ring-40-40" />
+    <None Include="Input\ring\ring-50-50" />
+    <None Include="Input\ring\ring-60-60" />
+    <None Include="Input\ring\ring-75-75" />
+    <None Include="Input\ring\ring-100-100" />
+    <None Include="Input\tree\tree-5-4" />
+    <None Include="Input\tree\tree-10-9" />
+    <None Include="Input\tree\tree-15-14" />
+    <None Include="Input\tree\tree-20-19" />
+    <None Include="Input\tree\tree-25-24" />
+    <None Include="Input\tree\tree-30-29" />
+    <None Include="Input\tree\tree-35-34" />
+    <None Include="Input\tree\tree-40-39" />
+    <None Include="Input\tree\tree-50-49" />
+    <None Include="Input\tree\tree-60-59" />
+    <None Include="Input\tree\tree-75-74" />
+    <None Include="Input\tree\tree-100-99" />
+  </ItemGroup>
+</Project>

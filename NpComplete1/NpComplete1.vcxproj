@@ -143,17 +143,33 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="brute.h" />
+    <ClInclude Include="DataObject.h" />
+    <ClInclude Include="output.h" />
+    <ClInclude Include="recurse.h" />
+    <ClInclude Include="solution.h" />
+    <ClInclude Include="sortNodes.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="twoEdge.h" />
+    <ClInclude Include="zeroOne.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="brute.cpp" />
+    <ClCompile Include="DataObject.cpp" />
     <ClCompile Include="NpComplete1.cpp" />
+    <ClCompile Include="output.cpp" />
+    <ClCompile Include="recurse.cpp" />
+    <ClCompile Include="solution.cpp" />
+    <ClCompile Include="sortNodes.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="twoEdge.cpp" />
+    <ClCompile Include="zeroOne.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Input\grid\grid-100-180" />

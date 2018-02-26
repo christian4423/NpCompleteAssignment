@@ -26,4 +26,4 @@ Results for Output/grid/grid-6-7.txt
 
  Total number of required vertices: 4
 
-Run time: 0:08.951
+Run time: 0:00.011
